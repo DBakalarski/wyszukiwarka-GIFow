@@ -22,9 +22,9 @@ App = React.createClass({
 	        gif: gif, 
 	        searchingText: searchingText  
 	      });
-	    }.bind(this));
-	    .catch(function(error) {
-	    	console.log('Error')
+	    }.bind(this))
+	    .catch(function() {
+	    	console.log('Error');
 	    });
 	  },
 
